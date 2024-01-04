@@ -13,7 +13,7 @@ pip install micronuclAI-labeling
 To launch micronuclAI labeling tool, run the following command:
 
 ```
-python -m micronuclei_labeling_tool --input path/to/image --mask path/to/mask --out path/to/outfile.csv
+python -m micronuclai_labeling --input path/to/image --mask path/to/mask --out path/to/outfile.csv
 ```
 
 Once the tool is launched, you can use the following keyboard shortcuts:
