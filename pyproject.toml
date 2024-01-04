@@ -13,8 +13,8 @@ readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: GNU AGPLv3",
     "Operating System :: OS Independent",
+    "Framework :: PySimpleGUI"
 ]
 
 [project.urls]
