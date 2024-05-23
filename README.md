@@ -1,18 +1,27 @@
 # micronuclAI labeling tool
+[![PyPI](https://img.shields.io/pypi/v/micronuclAI_labeling?style=flat-square)](https://pypi.org/project/micronuclAI_labeling/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/micronuclAI_labeling?style=flat-square)](https://pypi.org/project/micronuclAI_labeling/)
+[![PyPI - License](https://img.shields.io/pypi/l/micronuclAI_labeling?style=flat-square)](https://pypi.org/project/micronuclAI_labeling/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/micronuclAI_labeling?style=flat-square)](https://pypi.org/project/micronuclAI_labeling/)
 
 ## Installation
-```
+``` bash
 pip install micronuclAI-labeling
 ```
 
 ## Requirements
-- Python 3.10
+- Python >= 3.9
+- numpy
+- matplotlib
+- scikit-image
+- PySimpleGUI
+- mask2bbox
 
 ## Usage
 
 To launch micronuclAI labeling tool, run the following command:
 
-```
+``` bash
 python -m micronuclai_labeling --input path/to/image --mask path/to/mask --out path/to/outfile.csv
 ```
 
