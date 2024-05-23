@@ -4,26 +4,29 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "micronuclAI_labeling"
-version = "0.0.3"
+version = "0.1.0"
 authors = [
   { name="Miguel A. Ibarra-Arellano", email="c180l058j@mozmail.com"},
 ]
 description = "GUI tool for labeling micronuclei images"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
-    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Operating System :: OS Independent",
-    "Framework :: PySimpleGUI"
+    "Framework :: PySimpleGUI",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Affero General Public License v3"
 ]
 dependencies = [
-  "numpy",
-  "matplotlib",
-  "PySimpleGUI",
-  "mask2bbox",
+    "numpy",
+    "matplotlib",
+    "scikit-image",
+    "PySimpleGUI",
+    "mask2bbox",
 ]
-
-license = {file = "LICENSE.txt"}
 
 keywords = ["micronuclei", "labeling", "gui"]
 
