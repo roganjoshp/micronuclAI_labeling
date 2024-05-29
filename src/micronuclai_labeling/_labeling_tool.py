@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 from PIL import Image
 from os.path import dirname, exists
 from pathlib import Path
-from matplotlib import cm
+from matplotlib import colormaps as cm
 from mask2bbox import BBoxes
 import numpy as np
 import io
