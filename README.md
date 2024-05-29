@@ -35,4 +35,8 @@ The key r is used to go back one image (in case any labeling mistake occurs).
 
 **NOTE:** Labeling doesn't have to be done in one session, it can be resumed later on.  
 **NOTE:** Once labeling is complete the tool will not initiate.  
-**NOTE:** Output, Input and Mask paths are required and must be the same in order to resume labeling.  
+**NOTE:** Output, Input and Mask paths are required and must be the same in order to resume labeling.
+
+## License
+
+micronuclAI offers a dual licensing mode the [GNU Affero General Public License v3.0](LICENSE) - see [LICENSE](LICENSE) and [ESSENTIAL_LICENSE_CONDITIONS.txt](ESSENTIAL_LICENSE_CONDITIONS.txt)
