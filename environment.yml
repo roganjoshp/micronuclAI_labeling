@@ -1,0 +1,14 @@
+name: micronuclAI_labeling
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - "python=3.9"
+  - "pysimplegui"
+  - "numpy"
+  - "scikit-image"
+  - "matplotlib"
+  - "pip"
+  - pip:
+    - "git+https://github.com/SchapiroLabor/micronuclAI_labeling"

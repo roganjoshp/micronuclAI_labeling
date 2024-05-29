@@ -9,13 +9,17 @@
 pip install micronuclAI-labeling
 ```
 
-## Requirements
-- Python >= 3.9
-- numpy
-- matplotlib
-- scikit-image
-- PySimpleGUI
-- mask2bbox
+## Docker
+You can build the docker image by running the following command:
+``` bash
+docker build -t micronuclai_labeling .
+```
+
+To run the docker image, use the following command:
+``` bash
+docker run -it -v [/local/path]:[container/path]  micronuclAI_labeling python -m micronuclai_labeling --input [container/path]/image --mask [container/path]/mask --out [container/path]/outfile.csv
+```
+
 
 ## Usage
 
