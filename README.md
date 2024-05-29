@@ -5,11 +5,23 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/micronuclAI_labeling?style=flat-square)](https://pypi.org/project/micronuclAI_labeling/)
 
 ## Installation
-On your preferred python environment, run the following command:
+To install micronuclAI labeling tool follow the instructions below:
 
+1. Create a new conda environment
+``` bash
+conda create -n micronuclai_labeling python=3.10
+```
+
+2. Activate the conda environment
+``` bash
+conda activate micronuclai_labeling
+```
+
+3. Install the package from PyPI using pip
 ``` bash
 pip install micronuclAI-labeling
 ```
+
 ## Usage
 
 To launch micronuclAI labeling tool, run the following command:
@@ -17,6 +29,8 @@ To launch micronuclAI labeling tool, run the following command:
 ``` bash
 python -m micronuclai_labeling --input path/to/image --mask path/to/mask --out path/to/outfile.csv
 ```
+
+![screenshot.png](images%2Fscreenshot.png)
 
 Once the tool is launched, you can use the following keyboard shortcuts:
 
