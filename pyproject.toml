@@ -25,7 +25,7 @@ dependencies = [
     "matplotlib",
     "scikit-image",
     "PySimpleGUI",
-    "mask2bbox",
+    "mask2bbox==0.0.24",
 ]
 
 keywords = ["micronuclei", "labeling", "gui"]
